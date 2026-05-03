@@ -107,4 +107,86 @@
 | Intro to Pentesting | Methodology and mindset | ⏳ | | |
 | Network Security | nmap, services, enumeration | ⏳ | | |
 | Web Application Security | OWASP Top 10 basics | ⏳ | | |
-| Privilege Escala
+| Privilege Escalation | Linux privesc techniques | ⏳ | | |
+| Metasploit | Framework basics and modules | ⏳ | | |
+
+---
+
+## 🔒 Spy Track — Physical Locks
+
+| Week | Milestone | Status | Date |
+|------|-----------|--------|------|
+| 1–2 | Study lock anatomy: springs, driver pins, shear line, plug | ⏳ | |
+| 3–4 | First successful Single Pin Pick on clear practice lock | ⏳ | |
+| 5–6 | Consistent SPP — open practice lock in under 3 minutes | ⏳ | |
+| 7–8 | Progress to raking technique on a cheap padlock | ⏳ | |
+| 9–10 | Open basic padlock in under 60 seconds | ⏳ | |
+| 11–12 | Attempt a second lock type | ⏳ | |
+
+---
+
+## 📋 Weekly Log
+
+| Week | Dates | Monday Book | Thursday Script | Wednesday CTF | Status |
+|------|-------|-------------|-----------------|---------------|--------|
+| 1 | 4–10 May | B-100 Ch1 | user-management.sh | THM: How Web Works | ⏳ |
+| 2 | 11–17 May | B-100 Ch2 | cron-setup.sh | THM: Linux Fund. 1 | ⏳ |
+| 3 | 18–24 May | B-100 Ch3 | log-rotation.sh | THM: Linux Fund. 2 | ⏳ |
+| 4 | 25–31 May | B-100 Ch4 | file-permissions.sh | THM: Linux Fund. 3 | ⏳ |
+| 5 | 1–7 Jun | B-100 Ch5 | port-scanner.py | THM: Network Fund. | ⏳ |
+| 6 | 8–14 Jun | B-100 Ch6 | network-info.sh | THM: How Internet Works | ⏳ |
+| 7 | 15–21 Jun | B-100 Ch7 | process-monitor.sh | THM: Intro to Pentesting | ⏳ |
+| 8 | 22–28 Jun | B-100 Ch8 | backup.sh | THM: Network Security | ⏳ |
+| 9 | 29 Jun–5 Jul | B-100 Ch9 | service-checker.sh | THM: Web App Security | ⏳ |
+| 10 | 6–12 Jul | B-100 Ch10 | sys-info.sh | THM: Privilege Escalation | ⏳ |
+| 11 | 13–19 Jul | Wireshark focus | Wireshark pcaps | THM: Metasploit | ⏳ |
+| 12 | 20–26 Jul | Review + catch up | Polish all scripts | Extra CTF room | ⏳ |
+
+---
+
+## 📝 Weekly Notes
+
+*Update every Sunday during your review session. Record what you have learned, what confused you, any mistakes and all*
+
+**Week 1 — 4 May:**
+
+**Week 2 — 11 May:**
+
+**Week 3 — 18 May:**
+
+**Week 4 — 25 May:**
+
+**Week 5 — 1 Jun:**
+
+**Week 6 — 8 Jun:**
+
+**Week 7 — 15 Jun:**
+
+**Week 8 — 22 Jun:**
+
+**Week 9 — 29 Jun:**
+
+**Week 10 — 6 Jul:**
+
+**Week 11 — 13 Jul:**
+
+**Week 12 — 20 Jul:**
+
+---
+
+## ✅ Phase 1 Completion Checklist
+
+- [ ] All 17 chapters of B-100 read with 5-bullet summaries in notes/
+- [ ] Wireshark key chapters completed
+- [ ] 10 bash scripts committed with individual READMEs
+- [ ] 3 annotated pcap files saved in 02-pcaps/
+- [ ] TryHackMe Pre-Security path fully completed
+- [ ] TryHackMe Jr Penetration Tester path fully completed
+- [ ] 10+ CTF writeups committed in ctf-writeups/thm/
+- [ ] Practice lock opened consistently in under 60 seconds
+- [ ] Phase 1 status updated to ✅ in main Cyber-Labs README
+- [ ] All work committed and pushed to GitHub
+
+---
+
+*Phase 1 of 9 — [Cyber-Labs](../README.md)*
