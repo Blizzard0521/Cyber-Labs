@@ -12,7 +12,7 @@ A structured portfolio of hands-on cybersecurity work built across a
 | Phase | Focus | Status |
 |-------|-------|--------|
 | Phase 0 | Setup & Baseline | Completed |
-| Phase 1 | Linux, Networking & Locks | ⏳ Upcoming |
+| Phase 1 | Linux, Networking & Locks | Ongoing |
 | Phase 2 | Web Vulnerabilities & OSINT | ⏳ Upcoming |
 | Phase 3 | Offensive Tooling | ⏳ Upcoming |
 | Phase 3.5 | Active Directory & C2 | ⏳ Upcoming |
