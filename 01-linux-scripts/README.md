@@ -23,34 +23,40 @@
 
 ### Linux Basics for Hackers (B-100)
 
-| Chapter | Topic | Status | Date Completed |
-|---------|-------|--------|----------------|
-| 1 | Getting Started with the Basics | ⏳ | |
-| 2 | Text Manipulation | ⏳ | |
-| 3 | Analyzing and Managing Networks | ⏳ | |
-| 4 | Adding and Removing Software | ⏳ | |
-| 5 | Controlling File and Directory Permissions | ⏳ | |
-| 6 | Process Management | ⏳ | |
-| 7 | Managing User Environment Variables | ⏳ | |
-| 8 | Bash Scripting | ⏳ | |
-| 9 | Compressing and Archiving | ⏳ | |
-| 10 | Filesystem and Storage Device Management | ⏳ | |
-| 11 | The Logging System | ⏳ | |
-| 12 | Using and Abusing Services | ⏳ | |
-| 13 | Becoming Secure and Anonymous | ⏳ | |
-| 14 | Understanding and Inspecting Wireless Networks | ⏳ | |
-| 15 | Managing the Linux Kernel and Loadable Kernel Modules | ⏳ | |
-| 16 | Automating Tasks with Job Scheduling | ⏳ | |
-| 17 | Python Scripting Basics for Hackers | ⏳ | |
+| Chapter | Topic | Priority | Status | Date Done |
+|---------|-------|----------|--------|-----------|
+| Ch1 | Getting Started | Must Read | ⏳ | |
+| Ch2 | Text Manipulation | Must Read | ⏳ | |
+| Ch3 | Analyzing and Managing Networks | Must Read | ⏳ | |
+| Ch4 | Adding and Removing Software | Skim | ⏳ | |
+| Ch5 | Controlling File Permissions | Must Read | ⏳ | |
+| Ch6 | Process Management | Must Read | ⏳ | |
+| Ch7 | Managing User Environment Variables | Selective | ⏳ | |
+| Ch8 | Bash Scripting | Must Read | ⏳ | |
+| Ch9 | Compressing and Archiving | Skim | ⏳ | |
+| Ch10 | Filesystem and Storage | Selective | ⏳ | |
+| Ch11 | The Logging System | Must Read | ⏳ | |
+| Ch12 | Using and Abusing Services | Must Read | ⏳ | |
+| Ch13 | Becoming Secure and Anonymous | Selective | ⏳ | |
+| Ch14 | Wireless Networks | SKIP | ❌ | N/A |
+| Ch15 | Managing the Linux Kernel | Skim | ⏳ | |
+| Ch16 | Automating Tasks with Job Scheduling | Must Read | ⏳ | |
+| Ch17 | Python Scripting Basics for Hackers | Must Read | ⏳ | |
 
 ### Learn Wireshark (B-220) — Selective Read
 
-| Focus Area | Topic | Status | Date Completed |
-|------------|-------|--------|----------------|
-| Filters | Display and capture filters | ⏳ | |
-| Protocols | TCP, DNS, HTTP dissection | ⏳ | |
-| Streams | Following TCP/HTTP streams | ⏳ | |
-| Analysis | Identifying suspicious traffic | ⏳ | |
+| Chapter | Topic | Priority | Scheduled Week | Status | Date Done |
+|---------|-------|----------|---------------|--------|-----------|
+| Ch1 | Introduction to Wireshark | Read | Week 1 Saturday | ⏳ | |
+| Ch2 | Capturing Packets | Read | Week 2 Saturday | ⏳ | |
+| Ch3 | Filters | Read | Week 3 Saturday | ⏳ | |
+| Ch4 | Protocol Overview | Skim | Week 4 Saturday | ⏳ | |
+| Ch5 | TCP/IP Analysis | Read | Week 5 Saturday | ⏳ | |
+| Ch6 | HTTP and DNS | Read | Week 6 Saturday | ⏳ | |
+| Ch7 | Following Streams | Read | Week 8 Saturday | ⏳ | |
+| Ch8 | Statistics and Graphs | Skim | Week 9 Saturday | ⏳ | |
+| Ch9 | Wireless Analysis | SKIP | — | ❌ | N/A |
+| Ch10+ | Advanced Features | SKIP | — | ❌ | N/A |
 
 ---
 
@@ -127,26 +133,25 @@
 
 ## 📋 Weekly Log
 
-> Monday = must-read chapters (important for red team path)
-> Saturday = selective/skim chapters (still need to finish, lower priority)
-> All 17 chapters must be completed by end of Week 12.
+> **Monday** = Must-read B-100 chapter. Full 2-hour read, handwritten notes, 5-bullet summary committed to notes/
+> **Saturday** = Skim/selective B-100 chapter + Wireshark chapter. 30–45 mins each, no pressure.
+> **All 16 B-100 chapters + 8 Wireshark chapters must be completed by end of Week 12.**
+> **Ch14 (Wireless Networks) — SKIP. Not relevant to red team path.**
 
-| Week | Dates | Monday Reading | Saturday Reading | Thursday Script | Wednesday CTF | Status |
-|------|-------|---------------|-----------------|-----------------|---------------|--------|
-| 1 | 4–10 May | Ch1 — Getting Started | — | user-management.sh | THM: How Web Works | ⏳ |
-| 2 | 11–17 May | Ch2 — Text Manipulation | — | cron-setup.sh | THM: Linux Fund. 1 | ⏳ |
-| 3 | 18–24 May | Ch3 — Networking | — | log-rotation.sh | THM: Linux Fund. 2 | ⏳ |
-| 4 | 25–31 May | Ch5 — File Permissions | Ch4 — Adding Software (skim) | file-permissions.sh | THM: Linux Fund. 3 | ⏳ |
-| 5 | 1–7 Jun | Ch6 — Process Management | Ch7 — Environment Variables (selective) | port-scanner.py | THM: Network Fund. | ⏳ |
-| 6 | 8–14 Jun | Ch8 — Bash Scripting | Ch9 — Compressing & Archiving (skim) | network-info.sh | THM: How Internet Works | ⏳ |
-| 7 | 15–21 Jun | Ch11 — Logging System | Ch10 — Filesystem & Storage (selective) | process-monitor.sh | THM: Intro to Pentesting | ⏳ |
-| 8 | 22–28 Jun | Ch12 — Using & Abusing Services | Ch13 — Secure & Anonymous (selective) | backup.sh | THM: Network Security | ⏳ |
-| 9 | 29 Jun–5 Jul | Ch16 — Job Scheduling | Ch15 — Linux Kernel (skim) | service-checker.sh | THM: Web App Security | ⏳ |
-| 10 | 6–12 Jul | Ch17 — Python Scripting Basics | — | sys-info.sh | THM: Privilege Escalation | ⏳ |
-| 11 | 13–19 Jul | Wireshark — Filters + TCP/DNS/HTTP | Wireshark — Following Streams | Wireshark pcaps | THM: Metasploit | ⏳ |
-| 12 | 20–26 Jul | Full review + weak areas | Catch up anything missed | Polish all scripts | Extra CTF room | ⏳ |
-
-> Ch14 (Wireless Networks) — SKIP. Not relevant to red team path.
+| Week | Dates | Monday — B-100 | Saturday — B-100 | Saturday or Friday — Wireshark | Thursday Script | Wednesday CTF | Status |
+|------|-------|---------------|-----------------|---------------------|-----------------|---------------|--------|
+| 1 | 4–10 May | Ch1 — Getting Started | — | Ch1 — Introduction | user-management.sh | THM: How Web Works | ⏳ |
+| 2 | 11–17 May | Ch2 — Text Manipulation | — | Ch2 — Capturing Packets | cron-setup.sh | THM: Linux Fund. 1 | ⏳ |
+| 3 | 18–24 May | Ch3 — Networking | — | Ch3 — Filters | log-rotation.sh | THM: Linux Fund. 2 | ⏳ |
+| 4 | 25–31 May | Ch5 — File Permissions | Ch4 — Adding Software (skim) | Ch4 — Protocol Overview (skim) | file-permissions.sh | THM: Linux Fund. 3 | ⏳ |
+| 5 | 1–7 Jun | Ch6 — Process Management | Ch7 — Environment Variables (selective) | Ch5 — TCP/IP Analysis | port-scanner.py | THM: Network Fund. | ⏳ |
+| 6 | 8–14 Jun | Ch8 — Bash Scripting | Ch9 — Compressing & Archiving (skim) | Ch6 — HTTP and DNS | network-info.sh | THM: How Internet Works | ⏳ |
+| 7 | 15–21 Jun | Ch11 — Logging System | Ch10 — Filesystem & Storage (selective) | — | process-monitor.sh | THM: Intro to Pentesting | ⏳ |
+| 8 | 22–28 Jun | Ch12 — Using & Abusing Services | Ch13 — Secure & Anonymous (selective) | Ch7 — Following Streams | backup.sh | THM: Network Security | ⏳ |
+| 9 | 29 Jun–5 Jul | Ch16 — Job Scheduling | Ch15 — Linux Kernel (skim) | Ch8 — Statistics (skim) | service-checker.sh | THM: Web App Security | ⏳ |
+| 10 | 6–12 Jul | Ch17 — Python Scripting | — | — | sys-info.sh | THM: Privilege Escalation | ⏳ |
+| 11 | 13–19 Jul | Wireshark review + capture all 3 pcaps | Catch up any missed B-100 chapters | Catch up any missed Wireshark chapters | Wireshark pcaps | THM: Metasploit | ⏳ |
+| 12 | 20–26 Jul | Full review + weak areas | Catch up anything missed | Catch up anything missed | Polish all scripts | Extra CTF room | ⏳ |
 ---
 
 ## 📝 Weekly Notes
