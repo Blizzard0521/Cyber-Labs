@@ -97,14 +97,15 @@
 
 ### TryHackMe — Pre-Security Path
 
-| Room | Topic | Status | Date | Writeup |
-|------|-------|--------|------|---------|
-| How the Web Works | HTTP, DNS, URLs | ⏳ | | |
-| Linux Fundamentals Part 1 | Basic commands, navigation | ⏳ | | |
-| Linux Fundamentals Part 2 | Permissions, scripting | ⏳ | | |
-| Linux Fundamentals Part 3 | Automation, services | ⏳ | | |
-| Network Fundamentals | TCP/IP, OSI model, packets | ⏳ | | |
-| How the Internet Works | Protocols overview | ⏳ | | |
+| Room | Status | Date | 
+|------|-------|--------|
+| Introduction to Cyber Security | Done | 6/5/2026  
+| Network Fundamentals  | ⏳ | 
+| How the Web Works | ⏳ | | 
+| Computer Fundamentals | ⏳ | | 
+| Operating Systems Basics | ⏳ | |
+| Software Basics | ⏳ | | 
+| Attacks and Defences | ⏳ | | 
 
 ### TryHackMe — Jr Penetration Tester Path
 
