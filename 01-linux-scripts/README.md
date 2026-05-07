@@ -25,7 +25,7 @@
 
 | Chapter | Topic | Priority | Status | Date Done |
 |---------|-------|----------|--------|-----------|
-| Ch1 | Getting Started | Must Read | ⏳ | |
+| Ch1 | Getting Started | Must Read | Done | |
 | Ch2 | Text Manipulation | Must Read | ⏳ | |
 | Ch3 | Analyzing and Managing Networks | Must Read | ⏳ | |
 | Ch4 | Adding and Removing Software | Skim | ⏳ | |
