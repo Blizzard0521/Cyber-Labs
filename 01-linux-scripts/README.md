@@ -1,32 +1,42 @@
-# 📁 Phase 1 — Linux, Networking & Physical Locks
+# 📁 Phase 1 — Linux & Networking Fundamentals
 
-**Start Date:** 4 May 2026
-**End Date:** 26 July 2026
-**Duration:** 12 weeks
-**Books:** Linux Basics for Hackers (B-100) + Learn Wireshark (B-220)
-**Status:** 🔄 In Progress
+**Start Date:** 4 May 2026  
+**End Date:** 26 July 2026 (Phase 1 Deadline: 5 Jul for Core Reading)  
+**Duration:** 12 weeks  
+**Books:** Linux Basics for Hackers (B-100) + Learn Wireshark (B-220)  
+**Status:** 🔄 In Progress  
+
+---
+
+## 📅 Weekly Operating Tempo
+
+| Day | Focus Area | Description |
+| :--- | :--- | :--- |
+| **Mon & Tue** | **Theory & Reading** | 1–2 chapters per day. Mondays for Linux Basics, Tuesdays for Wireshark (until finished, then Linux takes both days). |
+| **Wednesday** | **Flex Day** | Open day for catch-up reading, research, or extra scripting. |
+| **Thursday** | **Tooling & Scripts** | Deliverables for Project Cyber (Bash scripting & Cybersecurity Projects). |
+| **Fri & Sat** | **Deep Engineering** | Project-Based Learning (PBL) — coding APIs, C/C++ networking stacks. |
+| **Sunday** | **Review** | Rest, university schoolwork, or unstructured project exploration. Log weekly notes. |
 
 ---
 
 ## 🎯 Phase Objectives
 
-- Become fluent with the Linux command line and bash scripting
-- Understand network protocols and packet analysis using Wireshark
-- Build a reusable bash scripting toolkit (10 scripts)
-- Capture and annotate real network traffic (3 pcap files)
-- Complete TryHackMe Pre-Security and Jr Penetration Tester paths
-- Master Single Pin Picking (SPP) on a practice lock
+- Become fluent with the Linux command line and bash scripting.
+- Understand network protocols and packet analysis using Wireshark.
+- Build a reusable bash scripting toolkit and foundational cybersecurity projects.
+- Complete Project-Based Learning (PBL) modules (API architecture & C/C++ networking).
 
 ---
 
-## 📚 Reading Progress
+## 📚 Reading Progress (Mon & Tue Focus)
 
-### Linux Basics for Hackers (B-100)
+### Linux Basics for Hackers (B-100) — *Mondays (and Tuesdays after June 2)*
 
 | Chapter | Topic | Priority | Status | Date Done |
 |---------|-------|----------|--------|-----------|
-| Ch1 | Getting Started | Must Read | Done | |
-| Ch2 | Text Manipulation | Must Read | Done | |
+| Ch1 | Getting Started | Must Read | ✅ Done | |
+| Ch2 | Text Manipulation | Must Read | ✅ Done | |
 | Ch3 | Analyzing and Managing Networks | Must Read | ⏳ | |
 | Ch4 | Adding and Removing Software | Skim | ⏳ | |
 | Ch5 | Controlling File Permissions | Must Read | ⏳ | |
@@ -43,167 +53,73 @@
 | Ch16 | Automating Tasks with Job Scheduling | Must Read | ⏳ | |
 | Ch17 | Python Scripting Basics for Hackers | Must Read | ⏳ | |
 
-### Learn Wireshark (B-220) — Selective Read Strategy (Starting from 19th May 2026)
+### Learn Wireshark (B-220) — *Tuesdays Only (3-Week Sprint)*
 
-| Chapter | Topic | Priority | Scheduled Week | Status | Date Done |
+| Chapter | Topic | Priority | Scheduled | Status | Date Done |
 |---------|-------|----------|---------------|--------|-----------|
-| Ch 1 | Introduction to Wireshark | Skim | Week 1 Tuesday | ⏳ | |
-| Ch 2 | Exploring the Interface | Skim | Week 1 Tuesday | ⏳ | |
-| Ch 3 | Wireshark Enhancements | Skim | Week 1 Tuesday | ⏳ | |
-| Ch 4 | Protocol Overview | Skim | Week 1 Tuesday | ⏳ | |
-| Ch 5 | Tapping into the Data Stream | Skim | Week 1 Tuesday | ⏳ | |
-| Ch 6 | Personalizing the Interface | SKIP | — | ❌ | N/A |
+| Ch 1-5 | Installation, Interface & Tapping | Skim | Week 1 Tuesday | ⏳ | |
 | Ch 7 | Using Display and Capture Filters | Read | Week 1 Tuesday | ⏳ | |
-| Ch 8 | Outlining the OSI Model | SKIP | — | ❌ | N/A |
-| Ch 9 | Decoding TCP and UDP | Read | Week 2 Tuesday | ⏳ | |
-| Ch 10 | Managing TCP Connections | Read | Week 2 Tuesday | ⏳ | |
-| Ch 11 | Analyzing IPv4 and IPv6 | SKIP | — | ❌ | N/A |
-| Ch 12 | Discovering ICMP | Read | Week 3 Tuesday | ⏳ | |
-| Ch 13 | Understanding ARP | Read | Week 3 Tuesday | ⏳ | |
-| Ch 14 | Troubleshooting Latency Issues | SKIP | — | ❌ | N/A |
-| Ch 15 | Subsetting, Saving, and Exporting Objects | Skim | Week 3 Tuesday | ⏳ | |
-| Ch 16 | Using CloudShark for Packet Analysis | SKIP | — | ❌ | N/A |
+| Ch 9-10 | Decoding & Managing TCP/UDP | Read | Week 2 Tuesday | ⏳ | |
+| Ch 12-13 | Discovering ICMP & Understanding ARP | Read | Week 3 Tuesday | ⏳ | |
+| Ch 15 | Subsetting, Saving & Exporting Objects | Skim | Week 3 Tuesday | ⏳ | |
+| Rest | Ch 6, 8, 11, 14, 16 | SKIP | — | ❌ | N/A |
 
 ---
 
-## 🛠️ Bash Scripts Deliverables
+## 🛠️ Thursday Deliverables (Scripts & Projects)
 
-> All scripts saved in this folder with individual READMEs and example output.
+> Scripts saved in `bash-scripts/`. Larger projects saved in `cyber-projects/` with READMEs.
 
-| # | Script | Description | Status | Date |
-|---|--------|-------------|--------|------|
-| 1 | user-management.sh | Create, delete, modify Linux users | ⏳ | |
-| 2 | cron-setup.sh | Automate scheduled tasks with cron | ⏳ | |
-| 3 | log-rotation.sh | Manage and rotate system logs | ⏳ | |
-| 4 | file-permissions.sh | Audit and fix file permissions | ⏳ | |
-| 5 | port-scanner.py | Basic TCP/UDP port scanner in Python | ⏳ | |
-| 6 | network-info.sh | Display full network configuration | ⏳ | |
-| 7 | process-monitor.sh | Monitor running processes and kill by name | ⏳ | |
-| 8 | backup.sh | Automated file and directory backup | ⏳ | |
-| 9 | service-checker.sh | Check status of key system services | ⏳ | |
-| 10 | sys-info.sh | Generate a full system information report | ⏳ | |
-
----
-
-## 📦 Packet Captures
-
-> All pcap files saved in `/02-pcaps/` with written annotations.
-
-| File | Protocol | Description | Status | Date |
-|------|----------|-------------|--------|------|
-| http.pcap | HTTP | Captured from Juice Shop web traffic | ⏳ | |
-| dns.pcap | DNS | DNS queries from lab network | ⏳ | |
-| tls.pcap | TLS | Encrypted HTTPS traffic sample | ⏳ | |
+| # | Project / Script | Type | Status | Date |
+|---|------------------|------|--------|------|
+| 1 | `user-management.sh` | Bash Script | ⏳ | |
+| 2 | `cron-setup.sh` (Persistence focus) | Bash Script | ⏳ | |
+| 3 | `log-rotation.sh` | Bash Script | ⏳ | |
+| 4 | `file-permissions.sh` | Bash Script | ⏳ | |
+| 5 | Python Port Scanner | Cyber Project | ⏳ | |
+| 6 | `network-info.sh` (Situational Awareness) | Bash Script | ⏳ | |
+| 7 | `process-monitor.sh` | Bash Script | ⏳ | |
+| 8 | Intrusion Detection System (IDS) | Cyber Project | ⏳ | |
+| 9 | `sys-info.sh` (PrivEsc Enumeration focus) | Bash Script | ⏳ | |
+| 10 | 3x Annotated PCAPs (`http`, `dns`, `tls`) | Wireshark Lab | ⏳ | |
 
 ---
 
-## 🏆 CTF Progress
+## ⚙️ Friday & Saturday (Project-Based Learning)
 
-> All writeups saved in `/ctf-writeups/thm/`
+> Dedicated time to build raw engineering skills. Code saved in `pbl-engineering/`.
 
-### TryHackMe — Pre-Security Path
-
-| Room | Status | Date | 
-|------|-------|--------|
-| Introduction to Cyber Security | Done | 6/5/2026  
-| Network Fundamentals  | ⏳ | 
-| How the Web Works | ⏳ | | 
-| Computer Fundamentals | ⏳ | | 
-| Operating Systems Basics | ⏳ | |
-| Software Basics | ⏳ | | 
-| Attacks and Defences | ⏳ | | 
-
-### TryHackMe — Jr Penetration Tester Path
-
-| Room | Topic | Status | Date | Writeup |
-|------|-------|--------|------|---------|
-| Intro to Pentesting | Methodology and mindset | ⏳ | | |
-| Network Security | nmap, services, enumeration | ⏳ | | |
-| Web Application Security | OWASP Top 10 basics | ⏳ | | |
-| Privilege Escalation | Linux privesc techniques | ⏳ | | |
-| Metasploit | Framework basics and modules | ⏳ | | |
+| Module | Project Focus | Status |
+|--------|---------------|--------|
+| **API Defense** | REST API masterclass with Go, PostgreSQL and Docker | ⏳ |
+| **API Defense** | Build a RESTful Microservice in Python | ⏳ |
+| **Low-Level** | Let's Code a TCP/IP Stack (C/C++) | ⏳ |
+| **Low-Level** | Memory Allocators 101 (C/C++) | ⏳ |
+| **Low-Level** | Write a Shell in C | ⏳ |
 
 ---
 
-## 🔒 Spy Track — Physical Locks
+## 📋 High-Level Weekly Log (May 18 Update)
 
-| Week | Milestone | Status | Date |
-|------|-----------|--------|------|
-| 1–2 | Study lock anatomy: springs, driver pins, shear line, plug | ⏳ | |
-| 3–4 | First successful Single Pin Pick on clear practice lock | ⏳ | |
-| 5–6 | Consistent SPP — open practice lock in under 3 minutes | ⏳ | |
-| 7–8 | Progress to raking technique on a cheap padlock | ⏳ | |
-| 9–10 | Open basic padlock in under 60 seconds | ⏳ | |
-| 11–12 | Attempt a second lock type | ⏳ | |
+> *This log maps the primary goals for the week.*
 
----
-
-## 📋 Weekly Log
-
-> **Monday** = Must-read B-100 chapter. Full 2-hour read, handwritten notes, 5-bullet summary committed to notes/
-> **Saturday** = Skim/selective B-100 chapter + Wireshark chapter. 30–45 mins each, no pressure.
-> **All 16 B-100 chapters + 8 Wireshark chapters must be completed by end of Week 12.**
-> **Ch14 (Wireless Networks) — SKIP. Not relevant to red team path.**
-
-| Week | Dates | Monday — B-100 | Saturday — B-100 | Saturday or Friday — Wireshark | Thursday Script | Wednesday CTF | Status |
-|------|-------|---------------|-----------------|---------------------|-----------------|---------------|--------|
-| 1 | 4–10 May | Ch1 — Getting Started | — | Ch1 — Introduction | user-management.sh | THM: How Web Works | ⏳ |
-| 2 | 11–17 May | Ch2 — Text Manipulation | — | Ch2 — Capturing Packets | cron-setup.sh | THM: Linux Fund. 1 | ⏳ |
-| 3 | 18–24 May | Ch3 — Networking | — | Ch3 — Filters | log-rotation.sh | THM: Linux Fund. 2 | ⏳ |
-| 4 | 25–31 May | Ch5 — File Permissions | Ch4 — Adding Software (skim) | Ch4 — Protocol Overview (skim) | file-permissions.sh | THM: Linux Fund. 3 | ⏳ |
-| 5 | 1–7 Jun | Ch6 — Process Management | Ch7 — Environment Variables (selective) | Ch5 — TCP/IP Analysis | port-scanner.py | THM: Network Fund. | ⏳ |
-| 6 | 8–14 Jun | Ch8 — Bash Scripting | Ch9 — Compressing & Archiving (skim) | Ch6 — HTTP and DNS | network-info.sh | THM: How Internet Works | ⏳ |
-| 7 | 15–21 Jun | Ch11 — Logging System | Ch10 — Filesystem & Storage (selective) | — | process-monitor.sh | THM: Intro to Pentesting | ⏳ |
-| 8 | 22–28 Jun | Ch12 — Using & Abusing Services | Ch13 — Secure & Anonymous (selective) | Ch7 — Following Streams | backup.sh | THM: Network Security | ⏳ |
-| 9 | 29 Jun–5 Jul | Ch16 — Job Scheduling | Ch15 — Linux Kernel (skim) | Ch8 — Statistics (skim) | service-checker.sh | THM: Web App Security | ⏳ |
-| 10 | 6–12 Jul | Ch17 — Python Scripting | — | — | sys-info.sh | THM: Privilege Escalation | ⏳ |
-| 11 | 13–19 Jul | Wireshark review + capture all 3 pcaps | Catch up any missed B-100 chapters | Catch up any missed Wireshark chapters | Wireshark pcaps | THM: Metasploit | ⏳ |
-| 12 | 20–26 Jul | Full review + weak areas | Catch up anything missed | Catch up anything missed | Polish all scripts | Extra CTF room | ⏳ |
----
-
-## 📝 Weekly Notes
-
-*Update every Sunday during your review session. Record what you have learned, what confused you, any mistakes and all*
-
-**Week 1 — 4 May:**
-
-**Week 2 — 11 May:**
-
-**Week 3 — 18 May:**
-
-**Week 4 — 25 May:**
-
-**Week 5 — 1 Jun:**
-
-**Week 6 — 8 Jun:**
-
-**Week 7 — 15 Jun:**
-
-**Week 8 — 22 Jun:**
-
-**Week 9 — 29 Jun:**
-
-**Week 10 — 6 Jul:**
-
-**Week 11 — 13 Jul:**
-
-**Week 12 — 20 Jul:**
+| Week | Target Dates | Mon/Tue (Reading Focus) | Thu (Deliverables) | Fri/Sat (PBL Focus) | Status |
+|------|--------------|-------------------------|--------------------|---------------------|--------|
+| **3** | 18–24 May | Linux Ch3 + Wireshark Setup & Filters | Script 1 & 2 | API Masterclass | ⏳ |
+| **4** | 25–31 May | Linux Ch5 + Wireshark TCP/UDP | Script 3 & 4 | API Masterclass | ⏳ |
+| **5** | 1–7 Jun | Linux Ch6 + Wireshark ARP/ICMP | Python Port Scanner | Microservice in Python | ⏳ |
+| **6** | 8–14 Jun | Linux Ch8 + Linux Ch9/10 (Wireshark Done) | Script 6 & 7 | Let's Code TCP/IP (C/C++) | ⏳ |
+| **7** | 15–21 Jun | Linux Ch11 + Linux Ch12 | Intrusion Detection (IDS) | Let's Code TCP/IP (C/C++) | ⏳ |
+| **8** | 22–28 Jun | Linux Ch13 + Linux Ch15 | Script 9 | Memory Allocators (C/C++) | ⏳ |
+| **9** | 29 Jun–5 Jul| Linux Ch16 + Linux Ch17 | PCAP Annotations | Write a Shell in C | ⏳ |
+| **10**| 6–12 Jul | Buffer: Catch up reading / Deep dive | Remaining projects | Finish C/C++ Shell | ⏳ |
+| **11**| 13–19 Jul | Full Review of notes & code | Polish Scripts | Extra PBL / Research | ⏳ |
+| **12**| 20–26 Jul | Final Phase 1 Polish | Wrap up GitHub repo | Wrap up GitHub repo | ⏳ |
 
 ---
 
-## ✅ Phase 1 Completion Checklist
+## 📝 Weekly Sunday Reflection
 
-- [ ] All 17 chapters of B-100 read with 5-bullet summaries in notes/
-- [ ] Wireshark key chapters completed
-- [ ] 10 bash scripts committed with individual READMEs
-- [ ] 3 annotated pcap files saved in 02-pcaps/
-- [ ] TryHackMe Pre-Security path fully completed
-- [ ] TryHackMe Jr Penetration Tester path fully completed
-- [ ] 10+ CTF writeups committed in ctf-writeups/thm/
-- [ ] Practice lock opened consistently in under 60 seconds
-- [ ] Phase 1 status updated to ✅ in main Cyber-Labs README
-- [ ] All work committed and pushed to GitHub
+*Update every Sunday. Record what you learned, what broke, and what needs adjusting.*
 
----
-
-*Phase 1 of 9 — [Cyber-Labs](../README.md)*
+**Week 3 (24 May):** **Week 4 (31 May):** **Week 5 (7 Jun):** *(...continue as needed)*
