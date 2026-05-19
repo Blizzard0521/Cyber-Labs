@@ -43,20 +43,26 @@
 | Ch16 | Automating Tasks with Job Scheduling | Must Read | ⏳ | |
 | Ch17 | Python Scripting Basics for Hackers | Must Read | ⏳ | |
 
-### Learn Wireshark (B-220) — Selective Read
+### Learn Wireshark (B-220) — Selective Read Strategy (Starting from 19th May 2026)
 
 | Chapter | Topic | Priority | Scheduled Week | Status | Date Done |
 |---------|-------|----------|---------------|--------|-----------|
-| Ch1 | Introduction to Wireshark | Read | Week 1 Saturday | ⏳ | |
-| Ch2 | Capturing Packets | Read | Week 2 Saturday | ⏳ | |
-| Ch3 | Filters | Read | Week 3 Saturday | ⏳ | |
-| Ch4 | Protocol Overview | Skim | Week 4 Saturday | ⏳ | |
-| Ch5 | TCP/IP Analysis | Read | Week 5 Saturday | ⏳ | |
-| Ch6 | HTTP and DNS | Read | Week 6 Saturday | ⏳ | |
-| Ch7 | Following Streams | Read | Week 8 Saturday | ⏳ | |
-| Ch8 | Statistics and Graphs | Skim | Week 9 Saturday | ⏳ | |
-| Ch9 | Wireless Analysis | SKIP | — | ❌ | N/A |
-| Ch10+ | Advanced Features | SKIP | — | ❌ | N/A |
+| Ch 1 | Introduction to Wireshark | Skim | Week 1 Tuesday | ⏳ | |
+| Ch 2 | Exploring the Interface | Skim | Week 1 Tuesday | ⏳ | |
+| Ch 3 | Wireshark Enhancements | Skim | Week 1 Tuesday | ⏳ | |
+| Ch 4 | Protocol Overview | Skim | Week 1 Tuesday | ⏳ | |
+| Ch 5 | Tapping into the Data Stream | Skim | Week 1 Tuesday | ⏳ | |
+| Ch 6 | Personalizing the Interface | SKIP | — | ❌ | N/A |
+| Ch 7 | Using Display and Capture Filters | Read | Week 1 Tuesday | ⏳ | |
+| Ch 8 | Outlining the OSI Model | SKIP | — | ❌ | N/A |
+| Ch 9 | Decoding TCP and UDP | Read | Week 2 Tuesday | ⏳ | |
+| Ch 10 | Managing TCP Connections | Read | Week 2 Tuesday | ⏳ | |
+| Ch 11 | Analyzing IPv4 and IPv6 | SKIP | — | ❌ | N/A |
+| Ch 12 | Discovering ICMP | Read | Week 3 Tuesday | ⏳ | |
+| Ch 13 | Understanding ARP | Read | Week 3 Tuesday | ⏳ | |
+| Ch 14 | Troubleshooting Latency Issues | SKIP | — | ❌ | N/A |
+| Ch 15 | Subsetting, Saving, and Exporting Objects | Skim | Week 3 Tuesday | ⏳ | |
+| Ch 16 | Using CloudShark for Packet Analysis | SKIP | — | ❌ | N/A |
 
 ---
 
