@@ -37,7 +37,7 @@
 |---------|-------|----------|--------|-----------|
 | Ch1 | Getting Started | Must Read | ✅ Done | |
 | Ch2 | Text Manipulation | Must Read | ✅ Done | |
-| Ch3 | Analyzing and Managing Networks | Must Read | ⏳ | |
+| Ch3 | Analyzing and Managing Networks | Must Read |✅ Done  | |
 | Ch4 | Adding and Removing Software | Skim | ⏳ | |
 | Ch5 | Controlling File Permissions | Must Read | ⏳ | |
 | Ch6 | Process Management | Must Read | ⏳ | |
