@@ -57,7 +57,7 @@
 
 | Chapter | Topic | Priority | Scheduled | Status | Date Done |
 |---------|-------|----------|---------------|--------|-----------|
-| Ch 1-5 | Installation, Interface & Tapping | Skim | Week 1 Tuesday | ⏳ | |
+| Ch 1-5 | Installation, Interface & Tapping | Skim | Week 1 Tuesday | ✅ Done | |
 | Ch 7 | Using Display and Capture Filters | Read | Week 1 Tuesday | ⏳ | |
 | Ch 9-10 | Decoding & Managing TCP/UDP | Read | Week 2 Tuesday | ⏳ | |
 | Ch 12-13 | Discovering ICMP & Understanding ARP | Read | Week 3 Tuesday | ⏳ | |
