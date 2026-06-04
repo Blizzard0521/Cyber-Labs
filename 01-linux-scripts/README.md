@@ -72,7 +72,7 @@
 
 | # | Project / Script | Type | Status | Date |
 |---|------------------|------|--------|------|
-| 1 | `user-management.sh` | Bash Script | ⏳ | |
+| 1 | `user-management.sh` | Bash Script | ✅ Done | |
 | 2 | `cron-setup.sh` (Persistence focus) | Bash Script | ⏳ | |
 | 3 | `log-rotation.sh` | Bash Script | ⏳ | |
 | 4 | `file-permissions.sh` | Bash Script | ⏳ | |
